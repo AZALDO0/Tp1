@@ -18,6 +18,6 @@ class Syracuse:
         print(iter," : iterations")
         return self.u
 
-
+#Bye Bye
 x = Syracuse()
 x.syracuse()
