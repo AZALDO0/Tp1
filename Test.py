@@ -19,13 +19,13 @@ for x in range(0,3):
 
 print(list1)
 
-fichier = open("syracuse.txt", "w")
+fichier = open("number.txt", "w")
 fichier.write(str(list1))
 fichier.close()
 
 def reading(self):
         
-    fichier = open("syracuse.txt", "r")
+    fichier = open("number.txt", "r")
     print(fichier.read())
     fichier.close()
 
